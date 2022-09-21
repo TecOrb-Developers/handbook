@@ -1,4 +1,18 @@
-### Custom deployment for Ruby on Rails applications over AWS EC2
+## Ruby on Rails project deployment process
+
+We are using AWS and this document includes two major points:
+#### 1. Custom deployment over AWS.
+#### 2. Domain Setup on deployed application.
+
+Assuming we already have an AWS account to use AWS services and a purchased domain from any of domain provider.
+
+We are going to use four major AWS services in deployment process
+- EC2
+- Volumes
+- Security Groups
+- Route53
+
+### 1. Custom deployment for Ruby on Rails applications over AWS EC2
 Here are the custom steps of complete process of deployment. 
 
 We are choosing Ubuntu OS for our instance and documents are listed for the same.
@@ -50,7 +64,7 @@ We are choosing Ubuntu OS for our instance and documents are listed for the same
 
 #### Step 10: Restart Nginx service to load the configured changes and we are live.
 
-## Listing domain to EC2 application
+### 2. Listing domain to EC2 application
 
 #### Step 1: Purchase a domain from any domain provider
 
