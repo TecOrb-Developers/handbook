@@ -34,9 +34,42 @@ We are choosing Ubuntu OS for our instance and documents are listed for the same
 
 #### Step 7: Run seeds and other required post scripts which are needed initially.
 
-#### Step 8: Application environment setup including configuration for git ignored secrets, environment variables etc.
+#### Step 8: Application environment setup including:
+- Configuration for git ignored secrets
+- Git ignored environment variables
+- Development/Staging/Production prerequisite configuration if any
 
-#### Step 9: Creating server configurations on Nginx with access port, domain/IP, SSL info,  project location, enabled environment, ruby path etc.
-- Server setup: https://www.phusionpassenger.com/library/deploy/nginx/deploy/ruby/
+#### Step 9: Creating server configurations on Nginx with below details
+- application port 
+- domain/IP
+- SSL info
+- project location
+- enabled environment
+- ruby path etc.
+- Setup: https://www.phusionpassenger.com/library/deploy/nginx/deploy/ruby/
 
 #### Step 10: Restart Nginx service to load the configured changes and we are live.
+
+## Listing domain to EC2 application
+
+#### Step 1: Purchase a domain from any domain provider
+
+#### Step 2: Login to EC2 console and open Route53 Service
+- https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-configuring.html
+
+#### Step 3: Create a public hosted zone for your domain
+- https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingHostedZone.html
+
+#### Step 4: Register created DNS records to your domain provider inside your DNS settings. 
+- This might take couple of hours (as per domain provider) to reflect.
+
+#### Step 5: Create a new "A" record which will point to your EC2 IP
+- https://aws.amazon.com/getting-started/hands-on/get-a-domain/
+
+#### Step 6: Reconfigure nginx server by using the domain instead of IP and point the required port.
+- For SSL use port 443
+- For Non-SSL use default port 80.
+- Do not forget to add these ports in security group attached with EC2.
+- Configuration: https://docs.nginx.com/nginx/admin-guide/web-server/web-server/
+
+
