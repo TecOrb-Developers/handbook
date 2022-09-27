@@ -17,4 +17,5 @@ A stub is also called a Method Stub. A special type of method that â€œstands inâ
 
 For example, when testing a products controller and we are testing the list of 10 recent published products 
 
-Here is the example link where I explained more on "stub"
+Here is the example where I explained more on "stub": https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/stub.md
+

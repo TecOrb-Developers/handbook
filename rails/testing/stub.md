@@ -1,4 +1,5 @@
-#### What is Stub?
+## [Tecorb developers - RSpec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md) / Method Stub
+### What is Stub?
 A stub is also called a Method Stub. A special type of method that “stands in” for an existing method, or for a method that doesn't even exist yet.
 
 For example, when testing a products controller and we are testing the list of 10 recent published products 
