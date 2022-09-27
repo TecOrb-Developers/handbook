@@ -81,6 +81,15 @@ Tagging them *(rspec allows us to tag our tests)*
 - Parallel Tests help us to reduce the run time of our test suite, resulting in faster build times and faster releases.
 - We use `gem 'parallel_tests'` for parallel tests. Here is the [link](https://github.com/grosser/parallel_tests) for the gem on github
 
+#### Database Cleaner configuration
+- When we write ruby or rails code that interacts with a database and write unit test, chances are you have heard of or used the [database_cleaner gem](https://github.com/DatabaseCleaner/database_cleaner). 
+- It's a terrific gem that abstracts away the various ORM APIs for getting the DB into a "blank slate" state. 
+- Some setup needed to use it in optimal mode. 
+- Here are some blogs that give us idea to setup [Blog 1](https://avdi.codes/configuring-database_cleaner-with-rails-rspec-capybara-and-selenium/) [Blog 2](https://medium.com/brief-stops/testing-with-rspec-factorygirl-faker-and-database-cleaner-651c71ca0688)
+
+Configuring database_cleaner with Rails, Rspec, Capybara, and Selenium
+Testing with Rspec, FactoryGirl, Faker and Database cleaner
+
 ### Popular gems used for testing:
 - rspec-rails: https://github.com/rspec/rspec-rails
 - factory_bot: https://github.com/thoughtbot/factory_bot
