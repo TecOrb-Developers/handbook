@@ -1,1 +1,15 @@
-# handbook
+# Tecorb developers - Tech Guide
+## Ruby on Rails assets
+- [Used Popular Gems](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
+- [Testing via Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
+	- [Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
+	- [Stub](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/stub.md)
+	- [Mock](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/mock.md)
+- [Deployment](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment)
+	- [Custom Deployment via AWS EC2](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment/custom.md)
+	- [Build Docker image Rails](https://github.com/TecOrb-Developers/rails-docker-image)
+	- [Kubernetes with Rails]()
+	- [Building CICD Pipeline]()
+- [Doorkeeper Authentication](https://github.com/TecOrb-Developers/rails-doorkeeper-auth)
+- [2 Factor Authentication](https://github.com/TecOrb-Developers/rails-2-factor-auth)
+- [Live Chatting using Action Cable](https://github.com/TecOrb-Developers/rails-chat-action-cable)
