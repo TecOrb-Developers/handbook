@@ -2,7 +2,9 @@
 ### What is Stub?
 A stub is also called a Method Stub. A special type of method that “stands in” for an existing method, or for a method that doesn't even exist yet.
 
-For example, when testing a products controller and we are testing the list of 10 recent published products 
+Here is an example of a test for Method Stub. Below example includes:
+- A ProductsController with index action.
+- index action is returning the list of 10 recent published products.
 
 ``````
 describe ProductsController do
@@ -42,3 +44,15 @@ describe ProductsController do
 end
 ``````
 The products variable above is called a "stub," which is a kind of "test double."
+
+- Above creates an object that stands in for an actual list of published Products; 
+- double method is very similar to calling `Object.new`, tests (which are using doubles) will fail with much clearer error messages.
+- The "latest_published" string is simply a name which will be used in test failure messages.
+
+##### You can stub out a method on any object (including a test double) by using allow:
+
+`allow(Product).to receive(:latest_published).and_return(products)`
+
+- This changes the Product class to return products whenever latest_published is called. 
+- Stubbed methods will revert to their regular behavior after each test runs.
+- Using the double and allow methods, you can create simple stubs.
