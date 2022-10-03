@@ -13,3 +13,4 @@
 - [Doorkeeper Authentication](https://github.com/TecOrb-Developers/rails-doorkeeper-auth)
 - [2 Factor Authentication](https://github.com/TecOrb-Developers/rails-2-factor-auth)
 - [Live Chatting using Action Cable](https://github.com/TecOrb-Developers/rails-chat-action-cable)
+- [Razorpay Payment Gateway integration](https://github.com/TecOrb-Developers/rails-razorpay-integration)
