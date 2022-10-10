@@ -8,6 +8,7 @@ Here are some of the popular gems which we have used in our existing projects co
 - action_policy: https://github.com/palkan/action_policy
 - rolify: https://github.com/RolifyCommunity/rolify
 - jwt_sessions: https://github.com/tuwukee/jwt_sessions
+- devise-two-factor: https://github.com/tinfoil/devise-two-factor
 
 ### Security Gems
 - brakeman: https://github.com/presidentbeef/brakeman
