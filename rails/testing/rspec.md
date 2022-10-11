@@ -76,7 +76,6 @@ Tagging them *(rspec allows us to tag our tests)*
 - By stubbing methods on objects, we let them return a value which we set. 
 - The methods are not called in this case, and the value is accessible for the asking.
 
-
 #### Using Parallel Tests 
 - Parallel Tests help us to reduce the run time of our test suite, resulting in faster build times and faster releases.
 - We use `gem 'parallel_tests'` for parallel tests. Here is the [link](https://github.com/grosser/parallel_tests) for the gem on github
