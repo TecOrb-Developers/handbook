@@ -55,7 +55,6 @@ User can signup by providing basic details
 
 ### 2. Login User
 
-
 ```http
     POST http://localhost:3000/oauth/token
 ```
@@ -78,7 +77,6 @@ User can signup by providing basic details
 | `created_at` | `integer` | `166445***`  |
 
 
-
 ### 3. Order create
 ```http
   POST http://localhost:3000/api/v1/order/create
@@ -98,7 +96,6 @@ User can signup by providing basic details
 | `gateway_order_id` | `string` | `yRUB93****` |
 
 
-
 ### 4.Make payment and verify
 ```http
   POST http://localhost:3000/api/v1/order/verify
@@ -114,7 +111,6 @@ User can signup by providing basic details
 | :-------- | :------- | :------------------------- |
 | `status` | `boolean` |  `on success true` |
 | `status` | `boolean` |  `on fails false` |
-
 
 
 ### Generate API Keys in Test and Live Modes, check error responses, parameters and other APIs.

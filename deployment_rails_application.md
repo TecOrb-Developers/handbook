@@ -7,10 +7,10 @@ We are using AWS and this document includes two major points:
 Assuming we already have an AWS account to use AWS services and a purchased domain from any of domain provider.
 
 We are going to use four major AWS services in deployment process
-- EC2
-- Volumes
-- Security Groups
-- Route53
+- AWS EC2
+- AWS Volumes
+- AWS Security Groups
+- AWS Route53
 
 ### 1. Custom deployment for Ruby on Rails applications over AWS EC2
 Here are the custom steps of complete process of deployment. 
@@ -54,12 +54,12 @@ We are choosing Ubuntu OS for our instance and documents are listed for the same
 - Development/Staging/Production prerequisite configuration if any
 
 #### Step 9: Creating server configurations on Nginx with below details
-- application port 
-- domain/IP
+- Application port 
+- Domain/IP
 - SSL info
-- project location
-- enabled environment
-- ruby path etc.
+- Project location
+- Enabled environment
+- Ruby path etc.
 - Setup: https://www.phusionpassenger.com/library/deploy/nginx/deploy/ruby/
 
 #### Step 10: Restart Nginx service to load the configured changes and we are live.

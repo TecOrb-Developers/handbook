@@ -28,7 +28,6 @@ end
 
 ````
 
-
 Where to use Mock and where not?
 - If the method under test returns a value & it has no side effects (creating files, making API requests, etc.) **then you don’t need a mock**. Just check for the return value.
 - If the method is working with external objects & sending orders to them, then you can mock the interactions with these objects.
