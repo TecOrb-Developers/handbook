@@ -22,7 +22,7 @@ Here are some of the popular gems which we have used in our existing projects co
 - cancancan: https://github.com/CanCanCommunity/cancancan
 - pundit: https://github.com/varvet/pundit
 
-### Gems used in writting the Testing (TDD/BDD)
+### Gems used in Testing (TDD/BDD)
 - rspec-rails: https://github.com/rspec/rspec-rails
 - factory_bot: https://github.com/thoughtbot/factory_bot
 - parallel_tests: https://github.com/grosser/parallel_tests
