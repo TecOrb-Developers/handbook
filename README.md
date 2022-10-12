@@ -11,6 +11,7 @@
 		- [Create a Dockerfile](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment/1-Dockerfile.md)
 		- [Building Docker image](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment/2-docker-image-create.md)
 		- [Running Docker image](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment/3-docker-image-run.md)
+		- [Sample project with docker image](https://github.com/TecOrb-Developers/rails-docker-image)
 	- [Kubernetes with Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
 	- [Building CICD Pipeline](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
 - [Doorkeeper Authentication](https://github.com/TecOrb-Developers/rails-doorkeeper-auth)
