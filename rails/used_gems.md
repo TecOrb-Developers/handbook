@@ -10,18 +10,19 @@ Here are some of the popular gems which we have used in our existing projects co
 - jwt_sessions: https://github.com/tuwukee/jwt_sessions
 - devise-two-factor: https://github.com/tinfoil/devise-two-factor
 
-### Gems to achive the security layers 
+### Gems to manage various level of security layers
 - brakeman: https://github.com/presidentbeef/brakeman
 - rack-attack: https://github.com/rack/rack-attack
 - bundler-audit: https://github.com/rubysec/bundler-audit
 - secure_headers: https://github.com/github/secure_headers
+- doorkeeper: https://github.com/doorkeeper-gem/doorkeeper
 - bundler: https://github.com/rubygems/bundler
 
-### Gems to manage Role-based control
+### Gems to manage Role-based permissions & control
 - cancancan: https://github.com/CanCanCommunity/cancancan
 - pundit: https://github.com/varvet/pundit
 
-### Testing Gems
+### Gems used in writting the Testing (TDD/BDD)
 - rspec-rails: https://github.com/rspec/rspec-rails
 - factory_bot: https://github.com/thoughtbot/factory_bot
 - parallel_tests: https://github.com/grosser/parallel_tests
