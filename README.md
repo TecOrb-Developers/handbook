@@ -27,5 +27,7 @@
 		- [Two-Factor login success / Disable Two-Factor](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#step-6-two-factor-login-success)
 - [Live Chatting using Action Cable](https://github.com/TecOrb-Developers/rails-chat-action-cable)
 - [Razorpay Payment Gateway integration](https://github.com/TecOrb-Developers/rails-razorpay-integration)
-- [Rails 7 issues fixes](https://github.com/TecOrb-Developers/handbook/blob/main/rails/issues/rails-7-issues.md)
+- [Rails 7 setup]
+	- [Hotwire / Turbo](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md)
+	- [Setup issues](https://github.com/TecOrb-Developers/handbook/blob/main/rails/issues/rails-7-issues.md)
 	- [Rails 7 project setup with issues fixes](https://github.com/TecOrb-Developers/rails-2-factor-auth)
