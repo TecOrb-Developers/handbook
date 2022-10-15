@@ -31,8 +31,8 @@ This codebase is interacting with the Razorpay API. This projects explains how t
 
 ## Required variables to define in configuration.yml
 ````
-RAZORPAY_KEY_ID:   enter_key_id_here_xxxxxxxxxxxxxxxxxxxxxx
-RAZORPAY_KEY_SECRET: enter_key_secret_here_xxxxxxxxxxxxxxxxxxxxxx
+RAZORPAY_KEY_ID:   payment_gateway_key_id
+RAZORPAY_KEY_SECRET: payment_gateway_key_secret
 ````
 
 ## Used Gem
@@ -55,7 +55,7 @@ User can signup by providing basic details
 
 ### 2. Login User
 
-```http
+```
     POST http://localhost:3000/oauth/token
 ```
 
@@ -78,7 +78,7 @@ User can signup by providing basic details
 
 
 ### 3. Order create
-```http
+```
   POST http://localhost:3000/api/v1/order/create
  ```
 
@@ -97,7 +97,7 @@ User can signup by providing basic details
 
 
 ### 4.Make payment and verify
-```http
+```
   POST http://localhost:3000/api/v1/order/verify
  ```
 
@@ -115,7 +115,7 @@ User can signup by providing basic details
 
 ### Generate API Keys in Test and Live Modes, check error responses, parameters and other APIs.
 
-```http
+```
   base_url = GET https://api.razorpay.com/v1
 ```
 
@@ -126,7 +126,7 @@ User can signup by providing basic details
 
 ### Test and Live Mode API Keys
 
-```http
+```
   You can use Razorpay APIs in two modes, Test and Live. The API keys are different for each mode. Know about generating API Keys.
 ```
 
@@ -143,7 +143,7 @@ We need to register our account on Razorpay as a business. We would need blow ke
 You can find your API keys at https://dashboard.razorpay.com/#/app/keys.
 
 We will setup these keys in our Rozarpay configurations.
-```http
+```
 Razorpay.setup('key_id', 'key_secret')
 ```
 ### Razorpay features
