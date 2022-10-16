@@ -1,5 +1,5 @@
 ## [Tecorb developers rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails) / Used Popular Gems
-Here are some of the popular gems which we have used in our existing projects codebase.
+Here are some of the popular gems which we have used in our codebase.
 
 ### Authentication and Authorization Gems
 - devise: https://github.com/heartcombo/devise
@@ -53,8 +53,8 @@ Here are some of the popular gems which we have used in our existing projects co
 - letter_opener: https://github.com/ryanb/letter_opener
 
 ### Coding Style Gems
-- rubocop: https://github.com/rubocop/rubocop
-- lefthook: https://github.com/evilmartians/lefthook
+- Rubocop: https://github.com/rubocop/rubocop
+- Lefthook: https://github.com/evilmartians/lefthook
 
 ### Gems for Issues Tracking & Monitering
 - Sentry: https://github.com/getsentry/sentry-ruby
