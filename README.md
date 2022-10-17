@@ -30,5 +30,6 @@
 - [Rails 7 setup](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md)
 	- [Hotwire / Turbo](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md)
 	- [Devise with Turbo](https://github.com/TecOrb-Developers/rails-2-factor-auth#issues---rails-7--how-to-use-devise-with-hotwire--turbojs)
+	- [Turbo setup with devise](https://github.com/TecOrb-Developers/rails-hotwire-turbo/tree/turbo-devise)
 	- [Setup issues](https://github.com/TecOrb-Developers/handbook/blob/main/rails/issues/rails-7-issues.md)
-	- [Rails 7 project setup with issues fixes](https://github.com/TecOrb-Developers/rails-2-factor-auth)
+	- [Project setup with issues fixes](https://github.com/TecOrb-Developers/rails-2-factor-auth)
