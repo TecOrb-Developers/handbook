@@ -52,3 +52,17 @@ If you ever encounter this issue, the way to fix it is to add `status: :unproces
 
 After response status code added, our CRUD is now working perfectly.
 
+#### Turbo Frames
+
+Turbo Frames are independent pieces of a web page that can be appended, prepended, replaced, or removed without a complete page refresh and writing a single line of JavaScript!
+
+To create Turbo Frames, we use the `turbo_frame_tag` helper
+
+It is now effortless, with just a few lines of code to build dynamic applications by slicing pages in different pieces with Turbo Frames.
+
+- The real-time part is just a few lines of code with Turbo!
+- It becomes easy to add real-time features with the help of Turbo Streams like
+	- Want to add real-time notifications to your application
+	- Build a real-time multiplayer game
+	- A real-time bug monitoring system 
+
