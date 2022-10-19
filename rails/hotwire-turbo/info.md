@@ -66,3 +66,31 @@ It is now effortless, with just a few lines of code to build dynamic application
 	- Build a real-time multiplayer game
 	- A real-time bug monitoring system 
 
+#### Rule 1 of `turbo_frame_tag`
+
+- When clicking on a link within a Turbo Frame, Turbo expects a frame of the **same id** on the **target page**. 
+- It will then replace the Frame's content on the **source page (current page)** with the Frame's content on the **target page**.
+- let's wrap a piece of the Articles#new page (piece means we want just new form here on click of New Article) in a Turbo Frame of the **same id**. 
+- So We have to set form within turbo_frame_tag the same id "new_article_turbo_frame"
+
+#### Rule 2 of `turbo_frame_tag`
+
+ When clicking on a link within a Turbo Frame, if there is no Turbo Frame with the same id on the target page, the frame disappears, and the error Response has no matching `<turbo-frame id="name_of_the_frame">` element is logged in the console.
+
+
+#### How Turbo works?
+- Turbo automatically intercepts all clicks on `<a href>` links to the same domain.
+- When you click an the link, Turbo prevents the browser from following it. Instead, Turbo changes the browser’s URL using the History API, requests the new page using fetch, and then renders the HTML response.
+- During rendering, Turbo replaces the current `<body>` element outright and merges the contents of the `<head>` element. 
+- The JavaScript window and document objects, and the HTML `<html>` element, persist from one rendering to the next.
+- Turbo Drive can be disabled on a per-element basis by annotating the element or any of its ancestors with `data-turbo="false"`. 
+- Turbo Drive automatically initiates a restoration visit when you navigate with the browser’s Back or Forward buttons.
+- If you want Turbo Drive to be disabled by default, then you can adjust your import like this:
+```
+import { Turbo } from "@hotwired/turbo-rails"
+Turbo.session.drive = false
+```
+- Use `data-turbo="true"` to enable Drive on a per-element basis.
+- [Here is the complete documentation on turbo drive](https://turbo.hotwired.dev/handbook/drive)
+
+Go through [turbo-rails documentation](https://github.com/hotwired/turbo-rails) for more technical details and uses with rails 
