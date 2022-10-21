@@ -73,9 +73,13 @@ It is now effortless, with just a few lines of code to build dynamic application
 - let's wrap a piece of the Articles#new page (piece means we want just new form here on click of New Article) in a Turbo Frame of the **same id**. 
 - So We have to set form within turbo_frame_tag the same id "new_article_turbo_frame"
 
+[Here is the commit to implement Rule 1](https://github.com/TecOrb-Developers/rails-hotwire-turbo/commit/6083b88d354fe8bde720e31d253cac78bf9092b5)
+
 #### Rule 2 of `turbo_frame_tag`
 
  When clicking on a link within a Turbo Frame, if there is no Turbo Frame with the same id on the target page, the frame disappears, and the error Response has no matching `<turbo-frame id="name_of_the_frame">` element is logged in the console.
+
+[Here is the commit to implement Rule 1/2](https://github.com/TecOrb-Developers/rails-hotwire-turbo/commit/5f61f21b42d9e0f1b5fd290952417e8cf1234c11)
 
 #### Rule 3 of `turbo_frame_tag`
 
@@ -87,6 +91,8 @@ In that case, the Turbo Frame with the same id as the data-turbo-frame data attr
 Example:
 
 click on the "New Article" button. We should see our articles list (which is in second_frame) will be replaced by the new article form. This is because our link now targets the second frame.
+
+[Here is the commit to implement Rule 3](https://github.com/TecOrb-Developers/rails-hotwire-turbo/commit/a992e0dc367d59a131f4a3cdc288ebe3a55125e6)
 
 #### How Turbo works?
 - Turbo automatically intercepts all clicks on `<a href>` links to the same domain.
