@@ -77,6 +77,16 @@ It is now effortless, with just a few lines of code to build dynamic application
 
  When clicking on a link within a Turbo Frame, if there is no Turbo Frame with the same id on the target page, the frame disappears, and the error Response has no matching `<turbo-frame id="name_of_the_frame">` element is logged in the console.
 
+#### Rule 3 of `turbo_frame_tag`
+
+A link can target another frame than the one it is directly nested.
+Here we are adding `data: { turbo_frame: "second_frame" }` to link_to which is already nested with 'new_article_turbo_frame'.
+
+In that case, the Turbo Frame with the same id as the data-turbo-frame data attribute on the source page will be replaced by the Turbo Frame of the same id as the data-turbo-frame data attribute on the target page.
+
+Example:
+
+click on the "New Article" button. We should see our articles list (which is in second_frame) will be replaced by the new article form. This is because our link now targets the second frame.
 
 #### How Turbo works?
 - Turbo automatically intercepts all clicks on `<a href>` links to the same domain.
