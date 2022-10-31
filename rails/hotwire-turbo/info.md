@@ -94,6 +94,17 @@ Example: click on the "New Article" button. We should see our articles list (whi
 
 [Here is the commit to implement Rule 3](https://github.com/TecOrb-Developers/rails-hotwire-turbo/commit/06b60af40b243412af6d4b0fcf354800a22f7199)
 
+#### Special frame `_top`
+
+- If we wanted our "New Article" button to replace the whole page, we could use `data-turbo-frame="_top"`.
+
+- When using the `"_top"` keyword, the URL of the page changes to the URL of the target page, which is another difference from when using a regular Turbo Frame.
+
+- Browser will replace the whole page from the top with new article page
+
+- Every page has frame `"_top"`  by default
+
+[Here is the commit for using "_top" ](https://github.com/TecOrb-Developers/rails-hotwire-turbo/commit/98ab333975bab49b7badec03a90f2a6479e7975c)
 
 #### How Turbo works?
 - Turbo automatically intercepts all clicks on `<a href>` links to the same domain.
