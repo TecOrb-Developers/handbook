@@ -104,7 +104,6 @@ Example: click on the "New Article" button. We should see our articles list (whi
 
 - Every page has frame `"_top"`  by default
 
-
 [Here is the commit for using "_top" ](https://github.com/TecOrb-Developers/rails-hotwire-turbo/commit/98ab333975bab49b7badec03a90f2a6479e7975c)
 
 #### How Turbo works?
