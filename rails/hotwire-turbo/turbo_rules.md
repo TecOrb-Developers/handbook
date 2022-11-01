@@ -1,3 +1,5 @@
+## Turbo Frames Rules
+
 #### Rule 1 of `turbo_frame_tag`
 
 - When clicking on a link within a Turbo Frame, Turbo expects a frame of the **same id** on the **target page**. 
