@@ -66,7 +66,7 @@ It is now effortless, with just a few lines of code to build dynamic application
 	- Build a real-time multiplayer game
 	- A real-time bug monitoring system 
 
-#### Here are the [Turbo Rules](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/turbo_rules.md)
+#### Here are the [Turbo frames Rules](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/turbo_rules.md)
 
 #### How Turbo works?
 - Turbo automatically intercepts all clicks on `<a href>` links to the same domain.
