@@ -2,7 +2,7 @@
 
 In Rails 7, hotwire's turbo intercepts with form actions and submits forms over the wire.
 
-Currently, Devise gem does not support this action, hence needs a little tweaking to function well.
+Currently, Devise gem does not support this action, hence needs a custom configuration.
 
 Here are couple of steps we need to configure to respond devise with TURBO_STREAM format
 
