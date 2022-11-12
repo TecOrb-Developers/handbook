@@ -1,5 +1,6 @@
 # Tecorb developers - Tech Guide
 ## Ruby on Rails assets
+- [Basic Installations](https://github.com/TecOrb-Developers/handbook/blob/main/rails/installation.md)
 - [Used Popular Gems](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
 - [Testing via Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
 	- [Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
@@ -29,6 +30,10 @@
 - [Razorpay Payment Gateway integration](https://github.com/TecOrb-Developers/rails-razorpay-integration)
 - [Rails 7 setup](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md)
 	- [Hotwire / Turbo](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md)
-	- [Devise with Turbo](https://github.com/TecOrb-Developers/rails-2-factor-auth#issues---rails-7--how-to-use-devise-with-hotwire--turbojs)
-	- [Setup issues](https://github.com/TecOrb-Developers/handbook/blob/main/rails/issues/rails-7-issues.md)
-	- [Rails 7 project setup with issues fixes](https://github.com/TecOrb-Developers/rails-2-factor-auth)
+	- [Turbo frames Rules](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/turbo_rules.md)
+	- [Devise with Turbo](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/devise-with-turbo.md)
+		- [Implementation Steps](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/devise-with-turbo.md)
+		- [Commited changes](https://github.com/TecOrb-Developers/rails-hotwire-turbo/commit/bf5009e635153aa1c7feb4eea6fee81dca835897)
+		- [Working Project Codebase](https://github.com/TecOrb-Developers/rails-hotwire-turbo/tree/turbo-devise)
+	- [Issues & Fixes](https://github.com/TecOrb-Developers/handbook/blob/main/rails/issues/rails-7-issues.md)
+	- [Example with fixes](https://github.com/TecOrb-Developers/rails-2-factor-auth)
