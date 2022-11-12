@@ -37,3 +37,4 @@
 		- [Working Project Codebase](https://github.com/TecOrb-Developers/rails-hotwire-turbo/tree/turbo-devise)
 	- [Issues & Fixes](https://github.com/TecOrb-Developers/handbook/blob/main/rails/issues/rails-7-issues.md)
 	- [Example with fixes](https://github.com/TecOrb-Developers/rails-2-factor-auth)
+	- [CURD Hotwire (Turbo + Stimulus)](https://github.com/TecOrb-Developers/rails-hotwire-turbo)
