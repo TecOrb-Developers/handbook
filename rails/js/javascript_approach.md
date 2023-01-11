@@ -31,5 +31,5 @@ Hotwire, which is the combination of Stimulus and Turbo, became the default fron
 We have detailed documentation for working with Hotwire on our GitHub handbook. 
 
 Here are the references:
-https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md
-https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/turbo_rules.md
+- https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md
+- https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/turbo_rules.md
