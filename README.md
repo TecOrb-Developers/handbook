@@ -1,5 +1,5 @@
 # Tecorb developers - Tech Guide
-## Ruby on Rails assets
+## Ruby on Rails assets and samples
 - [Basic Installations](https://github.com/TecOrb-Developers/handbook/blob/main/rails/installation.md)
 - [Used Popular Gems](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
 - [Testing via Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
@@ -28,6 +28,7 @@
 		- [Two-Factor login success / Disable Two-Factor](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#step-6-two-factor-login-success)
 - [Live Chatting using Action Cable](https://github.com/TecOrb-Developers/rails-chat-action-cable)
 - [Razorpay Payment Gateway integration](https://github.com/TecOrb-Developers/rails-razorpay-integration)
+- [Upgrade Rails Project to Recent Version](https://github.com/TecOrb-Developers/handbook/blob/main/rails/version_upgrade.md)
 - [Rails 7 setup](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md)
 	- [Hotwire / Turbo](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/info.md)
 	- [Turbo frames Rules](https://github.com/TecOrb-Developers/handbook/blob/main/rails/hotwire-turbo/turbo_rules.md)

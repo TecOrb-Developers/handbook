@@ -9,6 +9,14 @@ Here is the command to run a docker image:
 docker run -p 3000:3000 mydockerimage/docker-rails-app:latest
 ```
 
+Basically we are running docker container via above command:
+
+we can name this container via `--name`
+
+```
+docker run --name mycontainername -p 3000:3000 mydockerimage/docker-rails-app:latest
+```
+
 **Note**
 - Left hand 3000 port is host port. 
 - Right hand 3000 port is container port. 
