@@ -1,5 +1,6 @@
 # Tecorb developers - Tech Guide
 ## Ruby on Rails assets and samples
+- [Why Ruby on Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails/ruby_on_rails.md)
 - [Basic Installations](https://github.com/TecOrb-Developers/handbook/blob/main/rails/installation.md)
 - [Used Popular Gems](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
 - [Testing via Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
