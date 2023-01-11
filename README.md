@@ -17,6 +17,7 @@
 		- [Sample project with docker image](https://github.com/TecOrb-Developers/rails-docker-image)
 	- [Kubernetes with Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
 	- [Building CICD Pipeline](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
+- [Javascript Approaches](https://github.com/TecOrb-Developers/handbook/blob/main/rails/js/javascript_approach.md)
 - [Doorkeeper Authentication](https://github.com/TecOrb-Developers/rails-doorkeeper-auth)
 - [2 Factor Authentication](https://github.com/TecOrb-Developers/rails-2-factor-auth)
 	- [How it works?](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#how-it-works)
