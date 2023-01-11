@@ -1,6 +1,7 @@
 ## Why do you like Ruby on Rails?
 
-Well, Ruby on Rails is primarily used for creating high-performance web platforms. It is also popular for its Rapid Application development and can easily be modified with required changes that helps developers to follow Agile Development Approach.
+- Ruby on Rails is primarily used for creating high-performance web platforms. 
+- It is also popular for its Rapid Application development and can easily be modified with required changes that helps developers to follow Agile Development Approach.
 
 ### Advantages of Ruby on Rails from the business perspective
 
@@ -52,6 +53,6 @@ Here are some of the benefits of using RSpec:
 - [Scheduled and Recurring Jobs](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md#gems-to-implement-scheduled-and-recurring-jobs)
 - [Code Debugging](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md#coding-style-gems)
 - [Tracking & Monitering Tools](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md#gems-for-issues-tracking--monitering)
-- https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md
+- [Used Gems](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
 
 
