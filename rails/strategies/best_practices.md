@@ -10,6 +10,7 @@ Should use popular libraries to maintain standard for security layers in below f
 - Role-based permissions & control
 
 Here are our Github Guidelines for the developers to follow while developing the features:
+
 - [Popular Libraries](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
 
 ### Write Test Cases with the feature development
@@ -17,6 +18,7 @@ Here are our Github Guidelines for the developers to follow while developing the
 While implementing features should not forget to write Rspec Test Cases which reduces the changes of errors, bugs and increases the Project productivity for long run.
 
 Here are our Github Guidelines for writing Rspec Test Cases during the development:
+
 https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md
 
 ### Use Exception Tracking and Coding Style tools
