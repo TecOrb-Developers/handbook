@@ -17,7 +17,7 @@ Here are some of the major responsibilities listed below:
 - Implementing strategies for automated actions for development for example using Error/Exception monitoring and Coding Style tools etc.
 - Building CI-CD pipelines for application deployment using PaaS like Github, CircleCI, Heroku etc and developing custom via Docker, Jenkins, GitHub/Bitbucket, and Kubernetes.
 - Setting easy communication channels like Slack for the team with automated tools integration (Ex. Sentry, Honeybadger etc). So everyone will get notify on chat when needed.
-
+- Thinking about managing Network Traffic. Building strategies for server scaling on the bases of users load on runtime.
 
 We have created our Guidelines Documentation over Github for the Senior developers with more details:
 
