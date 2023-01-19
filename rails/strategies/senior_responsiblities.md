@@ -19,6 +19,6 @@ Here are some of the major responsibilities listed below:
 - Setting easy communication channels like Slack for the team with automated tools integration (Ex. Sentry, Honeybadger etc). So everyone will get notify on chat when needed.
 - Thinking about managing Network Traffic. Building strategies for server scaling on the bases of users load on runtime.
 
-We have created our Guidelines Documentation over Github for the Senior developers with more details:
+We have created our detailed Guidelines Documentation over Github for the Senior developers:
 
 https://github.com/TecOrb-Developers/handbook
