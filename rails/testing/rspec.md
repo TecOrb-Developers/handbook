@@ -7,6 +7,16 @@ Here are some of the benefits of using RSpec:
 - Encourages developers confidence when making changes to existing code bases.
 - TDD promotes the development of high-quality code.
 
+### Here are steps for implementing Rspec Test Cases
+- [Testing via Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
+	- [Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
+        - [Rspec setup](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec/setup.md)
+        - [Rspec tests](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec)
+        - [Using factories](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec/factory_bot.md)
+        - [How to run specs?](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec/running_specs.md)
+	- [Using Stub](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/stub.md)
+	- [Using Mock](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/mock.md)
+
 ### How to test multi-step workflow in rspec
 Best practices we follow for testing a multi-step workflow using rspec:
 - define an object that creates the necessary state for each step and pass it forward for each successive one. 
@@ -75,7 +85,6 @@ Tagging them *(rspec allows us to tag our tests)*
 -  When we don't want an execute method that takes up time (like an API request or something), we can temporarily set a value it returns. 
 - By stubbing methods on objects, we let them return a value which we set. 
 - The methods are not called in this case, and the value is accessible for the asking.
-
 
 #### Using Parallel Tests 
 - Parallel Tests help us to reduce the run time of our test suite, resulting in faster build times and faster releases.

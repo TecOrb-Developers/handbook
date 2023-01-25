@@ -1,5 +1,5 @@
 ## [Tecorb developers rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails) / Used Popular Gems
-Here are some of the popular gems which we have used in our existing projects codebase.
+Here are some of the popular gems which we have used in our codebase.
 
 ### Authentication and Authorization Gems
 - devise: https://github.com/heartcombo/devise
@@ -10,14 +10,19 @@ Here are some of the popular gems which we have used in our existing projects co
 - jwt_sessions: https://github.com/tuwukee/jwt_sessions
 - devise-two-factor: https://github.com/tinfoil/devise-two-factor
 
-### Security Gems
+### Gems to manage various level of security layers
 - brakeman: https://github.com/presidentbeef/brakeman
 - rack-attack: https://github.com/rack/rack-attack
 - bundler-audit: https://github.com/rubysec/bundler-audit
 - secure_headers: https://github.com/github/secure_headers
+- doorkeeper: https://github.com/doorkeeper-gem/doorkeeper
 - bundler: https://github.com/rubygems/bundler
 
-### Testing Gems
+### Gems to manage Role-based permissions & control
+- cancancan: https://github.com/CanCanCommunity/cancancan
+- pundit: https://github.com/varvet/pundit
+
+### Gems used in Testing (TDD/BDD)
 - rspec-rails: https://github.com/rspec/rspec-rails
 - factory_bot: https://github.com/thoughtbot/factory_bot
 - parallel_tests: https://github.com/grosser/parallel_tests
@@ -48,9 +53,10 @@ Here are some of the popular gems which we have used in our existing projects co
 - letter_opener: https://github.com/ryanb/letter_opener
 
 ### Coding Style Gems
-- rubocop: https://github.com/rubocop/rubocop
-- lefthook: https://github.com/evilmartians/lefthook
+- Rubocop: https://github.com/rubocop/rubocop
+- Lefthook: https://github.com/evilmartians/lefthook
 
 ### Gems for Issues Tracking & Monitering
 - Sentry: https://github.com/getsentry/sentry-ruby
 - Honeybadger: https://github.com/honeybadger-io/honeybadger-ruby
+- Bugsnag: https://github.com/bugsnag/bugsnag-ruby
