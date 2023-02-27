@@ -1,6 +1,8 @@
 # Tecorb developers - Tech Guide
-## GIT
+## GIT Tools
 - [Commands](https://github.com/TecOrb-Developers/handbook/blob/main/git.md)
+## Command Line
+- [Commands](https://github.com/TecOrb-Developers/handbook/blob/main/command_line.md)
 ## Ruby on Rails assets and samples
 - [Why Ruby on Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails/ruby_on_rails.md)
 - [Basic Installations](https://github.com/TecOrb-Developers/handbook/blob/main/rails/installation.md)
