@@ -1,9 +1,11 @@
 # Tecorb developers - Tech Guide
-## GIT Tools
+### GIT Tools
 - [Commands](https://github.com/TecOrb-Developers/handbook/blob/main/git.md)
-## Command Line
+### Command Line
 - [Commands](https://github.com/TecOrb-Developers/handbook/blob/main/command_line.md)
-## Ruby on Rails assets and samples
+### Cron Setup
+- [Cron format](https://github.com/PriyaTecOrb/handbook/blob/main/cron_jobs.md)
+### Ruby on Rails assets and samples
 - [Why Ruby on Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails/ruby_on_rails.md)
 - [Basic Installations](https://github.com/TecOrb-Developers/handbook/blob/main/rails/installation.md)
 - [Used Popular Gems](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
@@ -51,3 +53,4 @@
 	- [Issues & Fixes](https://github.com/TecOrb-Developers/handbook/blob/main/rails/issues/rails-7-issues.md)
 	- [Example with fixes](https://github.com/TecOrb-Developers/rails-2-factor-auth)
 	- [CURD Hotwire (Turbo + Stimulus)](https://github.com/TecOrb-Developers/rails-hotwire-turbo)
+
