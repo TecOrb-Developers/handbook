@@ -1,8 +1,8 @@
 # Contents
 
 * [Installing Git](#install-git)
-* * [GitHub Desktop](#github-desktop)
-* * [Git for all platforms](#git-for-all-platforms)
+- [GitHub Desktop](#github-desktop)
+- [Git for all platforms](#git-for-all-platforms)
 * [Initial setup](#initial-setup)
 * [Creating a repository](#create-a-repository)
 * [Alteration](#alteration)
