@@ -60,3 +60,10 @@ Here are some of the popular gems which we have used in our codebase.
 - Sentry: https://github.com/getsentry/sentry-ruby
 - Honeybadger: https://github.com/honeybadger-io/honeybadger-ruby
 - Bugsnag: https://github.com/bugsnag/bugsnag-ruby
+
+### Google services
+- Google API: [Documentation](https://googleapis.dev/ruby/google-api-client/v0.53.0/index.html) https://rubygems.org/gems/google-api-client 
+- Google Drive: [Documentation](https://www.rubydoc.info/gems/google_drive/3.0.7) https://rubygems.org/gems/google_drive
+    - Library for reading/writing files/spreadsheets in Google Drive/Documents.
+- Google Auth: [Documentation](https://www.rubydoc.info/gems/googleauth/0.1.0) https://rubygems.org/gems/googleauth
+    - Implements a simple authorization to access the Google APIs and provides support for default application credentials.
