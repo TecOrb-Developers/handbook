@@ -67,3 +67,10 @@ Here are some of the popular gems which we have used in our codebase.
     - Library for reading/writing files/spreadsheets in Google Drive/Documents.
 - Google Auth: [Documentation](https://www.rubydoc.info/gems/googleauth/0.1.0) https://rubygems.org/gems/googleauth
     - Implements a simple authorization to access the Google APIs and provides support for default application credentials.
+
+### Scraping & Parsing
+- HTTParty: HTTP request gem https://github.com/jnunemaker/httparty
+- Faraday: HTTP/REST API client library https://lostisland.github.io/faraday/usage/
+- Nokogiri: Parsing gem https://github.com/sparklemotion/nokogiri
+- Nikkou: Extract useful data from HTML and XML https://github.com/tombenner/nikkou 
+- Mechanize: Automating interaction with websites https://github.com/sparklemotion/mechanize
