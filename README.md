@@ -1,8 +1,7 @@
 # Tecorb developers - Tech Guide
-### GIT Tools
-- [Commands](https://github.com/TecOrb-Developers/handbook/blob/main/git.md)
-### Command Line
-- [Commands](https://github.com/TecOrb-Developers/handbook/blob/main/command_line.md)
+### Command-line Interface (CLI Commands)
+- [GIT Commands](https://github.com/TecOrb-Developers/handbook/blob/main/git.md)
+- [Command Line](https://github.com/TecOrb-Developers/handbook/blob/main/command_line.md)
 ### Cron Setup
 - [Cron format](https://github.com/PriyaTecOrb/handbook/blob/main/cron_jobs.md)
 ### Ruby on Rails assets and samples
