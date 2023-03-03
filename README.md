@@ -8,7 +8,7 @@
 - [Why Ruby on Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails/ruby_on_rails.md)
 - [Basic Installations](https://github.com/TecOrb-Developers/handbook/blob/main/rails/installation.md)
 - [Used Popular Gems](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md)
-- [Testing via Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
+#### Testing via Rspec
 	- [Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
         - [Rspec setup](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec/setup.md)
         - [Rspec tests](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec)
@@ -16,8 +16,8 @@
         - [How to run specs?](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec/running_specs.md)
 	- [Using Stub](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/stub.md)
 	- [Using Mock](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/mock.md)
-- [Explore more on Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
-- [Deployment](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment)
+	- [Explore more on Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
+#### Deployment
 	- [Custom Deployment via AWS EC2](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment/custom.md)
 	- [Docker image setup](https://github.com/TecOrb-Developers/handbook/tree/main/rails/deployment)
 		- [Create a Dockerfile](https://github.com/TecOrb-Developers/handbook/blob/main/rails/deployment/1-Dockerfile.md)
@@ -28,11 +28,11 @@
 		- [Sample project with docker image](https://github.com/TecOrb-Developers/rails-docker-image)
 	- [Kubernetes with Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
 	- [Building CICD Pipeline](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
-- [Javascript Approaches](https://github.com/TecOrb-Developers/handbook/blob/main/rails/js/javascript_approach.md)
-- [Scraping & Parsing with Ruby](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md#scraping--parsing)
+#### Scraping & Parsing with Ruby
 	- [Used Gems for scraping and Parsing](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md#scraping--parsing)
 	- [Sample Project for Scraping and Parsing](https://github.com/developerJai/ruby-assignments)
 	- [Websites Scraping sample](https://github.com/developerJai/scrapers-ror)
+- [Javascript Approaches](https://github.com/TecOrb-Developers/handbook/blob/main/rails/js/javascript_approach.md)
 - [Doorkeeper Authentication](https://github.com/TecOrb-Developers/rails-doorkeeper-auth)
 - [2 Factor Authentication](https://github.com/TecOrb-Developers/rails-2-factor-auth)
 	- [How it works?](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#how-it-works)
