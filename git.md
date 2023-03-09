@@ -271,4 +271,4 @@ Downloads all changes from the local branch to the remote repository
 git pull
 ```
 
-Downloads a history from a remote repository and merges it with the local one. pull = fetch + merge
+Download a history from a remote repository and merges it with the local one. pull = fetch + merge
