@@ -83,7 +83,7 @@ We are choosing Ubuntu OS for our instance and documents are listed for the same
 #### Step 6: Reconfigure nginx server by using the domain instead of IP and point the required port.
 - For SSL use port 443
 - For Non-SSL use default port 80.
-- Do not forget to add these ports in security group attached with EC2.
+- Please add these ports in security group attached with EC2.
 - Configuration: https://docs.nginx.com/nginx/admin-guide/web-server/web-server/
 
 
