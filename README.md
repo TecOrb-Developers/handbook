@@ -1,8 +1,8 @@
 # Tecorb developers - Tech Guide
-### Command-line Interface (CLI Commands)
+### Command-Line Interface (CLI Commands)
 - [GIT Commands](https://github.com/TecOrb-Developers/handbook/blob/main/git.md)
 - [Command Line](https://github.com/TecOrb-Developers/handbook/blob/main/command_line.md)
-### Cron Setup
+### Cron Job Setup
 - [Cron format](https://github.com/PriyaTecOrb/handbook/blob/main/cron_jobs.md)
 ### Ruby on Rails assets and samples
 - [Why Ruby on Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails/ruby_on_rails.md)
@@ -11,7 +11,7 @@
 - [Javascript Approaches](https://github.com/TecOrb-Developers/handbook/blob/main/rails/js/javascript_approach.md)
 - [Doorkeeper Authentication](https://github.com/TecOrb-Developers/rails-doorkeeper-auth)
 - [2 Factor Authentication](https://github.com/TecOrb-Developers/rails-2-factor-auth)
-	- [How it works?](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#how-it-works)
+	- [How 2FA works?](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#how-it-works)
 		- [Login User](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#step-1-login-user)
 		- [Dashboard access](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#step-2-dashboard-access)
 		- [Enable Two-Factor Login via QR Code](https://github.com/TecOrb-Developers/rails-2-factor-auth/wiki#step-3-enable-two-factor-login-via-qr-code)
