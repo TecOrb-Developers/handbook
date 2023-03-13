@@ -52,8 +52,13 @@
 	- [Sample project with docker image](https://github.com/TecOrb-Developers/rails-docker-image)
 - [Kubernetes with Rails](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
 - [Building CICD Pipeline](https://github.com/TecOrb-Developers/handbook/blob/main/rails)
-#### Scraping & Parsing with Ruby
+#### Scraping and Parsing with Ruby
 - [Used Gems for scraping and Parsing](https://github.com/TecOrb-Developers/handbook/blob/main/rails/used_gems.md#scraping--parsing)
 - [Sample Project for Scraping and Parsing](https://github.com/developerJai/ruby-assignments)
 - [Websites Scraping sample](https://github.com/developerJai/scrapers-ror)
+##### Scraping Gems
+
+##### Parsing Gems
+
+
 
