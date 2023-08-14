@@ -3,6 +3,7 @@ Here are some of the popular gems which we have used in our codebase.
 
 ### Authentication and Authorization Gems
 - devise: https://github.com/heartcombo/devise
+- devise passwordless auth:https://github.com/abevoelker/devise-passwordless
 - omniauth: https://github.com/omniauth/omniauth
 - doorkeeper: https://github.com/doorkeeper-gem/doorkeeper
 - action_policy: https://github.com/palkan/action_policy
