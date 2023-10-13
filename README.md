@@ -38,6 +38,7 @@
 - [Rspec tests](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec)
 - [Using factories](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec/factory_bot.md)
 - [How to run specs?](https://github.com/TecOrb-Developers/rails-chat-action-cable/blob/main/documentation/technical/rspec/running_specs.md)
+- [Unit Testing and/or TDD](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/unit_testing_and_tdd.md)
 - [Using Stub](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/stub.md)
 - [Using Mock](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/mock.md)
 - [Explore more on Rspec](https://github.com/TecOrb-Developers/handbook/blob/main/rails/testing/rspec.md)
