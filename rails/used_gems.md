@@ -3,13 +3,13 @@ Here are some of the popular gems which we have used in our codebase.
 
 ### Authentication and Authorization Gems
 - devise: https://github.com/heartcombo/devise
-- devise passwordless auth:https://github.com/abevoelker/devise-passwordless
+- devise password-less auth:https://github.com/abevoelker/devise-passwordless
+- devise-two-factor: https://github.com/tinfoil/devise-two-factor
 - omniauth: https://github.com/omniauth/omniauth
 - doorkeeper: https://github.com/doorkeeper-gem/doorkeeper
 - action_policy: https://github.com/palkan/action_policy
 - rolify: https://github.com/RolifyCommunity/rolify
 - jwt_sessions: https://github.com/tuwukee/jwt_sessions
-- devise-two-factor: https://github.com/tinfoil/devise-two-factor
 
 ### Gems to manage various level of security layers
 - brakeman: https://github.com/presidentbeef/brakeman
